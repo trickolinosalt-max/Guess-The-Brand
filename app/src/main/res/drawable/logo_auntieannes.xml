@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Yellow Pretzel Blue Outline -->
+    <path
+        android:strokeColor="#0284C7"
+        android:strokeWidth="15"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M85,55 C70,30 45,45 45,68 C45,95 85,115 100,118 C115,115 155,95 155,68 C155,45 130,30 115,55 L90,110 M110,110 L85,55" />
+
+    <!-- Yellow Pretzel Body Fill -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M85,55 C70,30 45,45 45,68 C45,95 85,115 100,118 C115,115 155,95 155,68 C155,45 130,30 115,55 L90,110 M110,110 L85,55" />
+
+    <!-- Text: tie -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M65,145 L65,150 L60,150 L60,154 L65,154 L65,168 C65,173 68,175 73,175 C75,175 77,174 78,173 L78,168 C77,169 75,169 74,169 C72,169 71,168 71,165 L71,154 L78,154 L78,150 L71,150 L71,145 Z" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M83,144 C81,144 80,145 80,147 C80,149 81,150 83,150 C85,150 86,149 86,147 C86,145 85,144 83,144 Z M80,154 L86,154 L86,175 L80,175 Z" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M102,163 C102,157 98,153 92,153 C86,153 82,157 82,164 C82,171 86,175 92,175 C97,175 100,173 102,170 L98,167 C97,169 95,170 92,170 C88,170 87,167 87,165 L102,165 Z M87,161 C88,158 90,156 92,156 C95,156 97,158 97,161 Z" />
+
+    <!-- Text: e's -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M152,163 C152,157 148,153 142,153 C136,153 132,157 132,164 C132,171 136,175 142,175 C147,175 150,173 152,170 L148,167 C147,169 145,170 142,170 C138,170 137,167 137,165 L152,165 Z M137,161 C138,158 140,156 142,156 C145,156 147,158 147,161 Z" />
+    <!-- Apostrophe -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M155,144 L158,144 L156,150 L154,150 Z" />
+    <!-- Letter s -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M162,170 C163,171 165,172 167,172 C169,172 170,171 170,170 C170,169 169,168 166,167 C163,166 161,164 161,161 C161,156 165,153 170,153 C173,153 175,154 177,156 L175,159 C173,158 172,157 170,157 C168,157 167,158 167,159 C167,160 168,161 171,162 C174,163 176,165 176,168 C176,173 172,176 167,176 C164,176 161,174 159,172 Z" />
+</vector>

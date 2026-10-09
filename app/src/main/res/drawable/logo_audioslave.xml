@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Solid Black card -->
+    <path
+        android:fillColor="#0D0D0D"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Letter A -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,115 L32,85 L44,85 L52,115 L44,115 L42,106 L34,106 L32,115 Z M36,98 L40,98 L38,90 Z" />
+
+    <!-- Flame circle emblem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,100 A16,16 0 1,1 99.9,100 Z" />
+    <path
+        android:fillColor="#E11D48"
+        android:pathData="M98,89 C94,94 92,98 94,103 C96,108 101,110 103,107 C106,103 108,98 105,92 C103,96 100,97 99,95 C98,93 98,91 98,89 Z" />
+
+    <!-- Letters AVE -->
+    <!-- Letter A -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M142,115 L148,85 L158,85 L164,115 L157,115 L155,106 L151,106 L149,115 Z M152,99 L154,99 L153,92 Z" />
+    <!-- Letter V -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M165,85 L172,115 L178,115 L185,85 L178,85 L175,104 L172,85 Z" />
+    <!-- Letter E -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M188,85 L200,85 L200,91 L194,91 L194,97 L199,97 L199,103 L194,103 L194,109 L200,109 L200,115 L188,115 Z" />
+</vector>

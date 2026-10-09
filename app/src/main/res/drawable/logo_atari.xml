@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Red background banner -->
+    <path
+        android:fillColor="#E21B23"
+        android:pathData="M10,65 L190,65 C194,65 197,68 197,72 L197,128 C197,132 194,135 190,135 L10,135 C6,135 3,132 3,128 L3,72 C3,68 6,65 10,65 Z" />
+
+    <!-- White Letter T -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,82 L78,82 L78,89 L68,89 L68,118 L62,118 L62,89 L52,89 Z" />
+
+    <!-- Atari Center Pillars Emblem -->
+    <!-- Center straight bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M97,82 L103,82 L103,118 L97,118 Z" />
+    <!-- Left curved flank -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M93,82 C88,88 83,100 80,118 L87,118 C89,104 93,92 96,82 Z" />
+    <!-- Right curved flank -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M107,82 C112,88 117,100 120,118 L113,118 C111,104 107,92 104,82 Z" />
+
+    <!-- White Letter I -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M152,82 L158,82 L158,118 L152,118 Z" />
+</vector>

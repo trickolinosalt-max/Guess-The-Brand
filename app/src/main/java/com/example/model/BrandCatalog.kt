@@ -28,13 +28,13 @@ object BrandCatalog {
         ),
         BrandItem(
             id = 3,
-            name = "BACARDI",
-            category = "BEVERAGES",
+            name = "ARCADE",
+            category = "GAMING",
             logoRes = R.drawable.logo_arcade,
             difficulty = Difficulty.MEDIUM,
-            funFact = "Founded in Cuba in 1862. The iconic fruit bat was adopted because bats inhabited the distillery rafters!",
+            funFact = "Classic amusement arcade gaming center where legendary games like Pac-Man and Space Invaders began!",
             levelNumber = 1,
-            hint = "World famous spirits company with the iconic red arch letters and bat logo"
+            hint = "Classic coin-operated video gaming hall emblem"
         ),
         BrandItem(
             id = 4,
@@ -563,6 +563,210 @@ object BrandCatalog {
             funFact = "Marketed as Always in the US and UK, Whisper in Asia, and Orkid in Turkey, created by Procter & Gamble in 1983.",
             levelNumber = 5,
             hint = "Global feminine hygiene brand with infinity ribbon"
+        ),
+
+        // LEVEL 6: COMPUTING, TELECOM & ENTERTAINMENT (56-65)
+        BrandItem(
+            id = 56,
+            name = "ATARI",
+            category = "GAMING",
+            logoRes = R.drawable.logo_atari,
+            difficulty = Difficulty.EASY,
+            funFact = "Founded in 1972 by Nolan Bushnell and Ted Dabney. The legendary logo is affectionately called the 'Fuji' symbol!",
+            levelNumber = 6,
+            hint = "Pioneering video game and arcade company behind Pong & 2600"
+        ),
+        BrandItem(
+            id = 57,
+            name = "ATI",
+            category = "TECHNOLOGY",
+            logoRes = R.drawable.logo_ati,
+            difficulty = Difficulty.EASY,
+            funFact = "Founded in Markham, Ontario in 1985. Created the Radeon GPU line before being acquired by AMD in 2006.",
+            levelNumber = 6,
+            hint = "Semiconductor firm famed for Radeon PC graphics cards"
+        ),
+        BrandItem(
+            id = 58,
+            name = "ATOMIC",
+            category = "SPORTS",
+            logoRes = R.drawable.logo_atomic,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "Austrian ski manufacturer founded in 1955 by Alois Rohrmoser. World Cup champions like Mikaela Shiffrin ski on Atomic!",
+            levelNumber = 6,
+            hint = "Austrian alpine ski and winter sports equipment company"
+        ),
+        BrandItem(
+            id = 59,
+            name = "ATT",
+            category = "TELECOM",
+            logoRes = R.drawable.logo_att,
+            difficulty = Difficulty.EASY,
+            funFact = "Traces its lineage directly to Alexander Graham Bell and the Bell Telephone Company founded in 1877.",
+            levelNumber = 6,
+            hint = "Major American telecommunications giant with blue striped globe"
+        ),
+        BrandItem(
+            id = 60,
+            name = "AUDI",
+            category = "AUTOMOTIVE",
+            logoRes = R.drawable.logo_audi,
+            difficulty = Difficulty.EASY,
+            funFact = "The four rings represent the 1932 merger of four German car makers: Audi, DKW, Horch, and Wanderer under Auto Union.",
+            levelNumber = 6,
+            hint = "German luxury automaker famed for quattro all-wheel drive"
+        ),
+        BrandItem(
+            id = 61,
+            name = "AUDIOSLAVE",
+            category = "MUSIC",
+            logoRes = R.drawable.logo_audioslave,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "Formed in 2001 featuring Soundgarden's Chris Cornell alongside Rage Against the Machine members Tom Morello, Tim Commerford, and Brad Wilk.",
+            levelNumber = 6,
+            hint = "Legendary hard rock supergroup with flaming silhouette logo"
+        ),
+        BrandItem(
+            id = 62,
+            name = "AUNTIE ANNES",
+            category = "FOOD",
+            logoRes = R.drawable.logo_auntieannes,
+            difficulty = Difficulty.EASY,
+            funFact = "Started by Anne Beiler at a Pennsylvania farmers market in 1988, famous worldwide for freshly baked soft pretzels.",
+            levelNumber = 6,
+            hint = "Popular mall pretzel chain with golden pretzel icon"
+        ),
+        BrandItem(
+            id = 63,
+            name = "AVG",
+            category = "SOFTWARE",
+            logoRes = R.drawable.logo_avg,
+            difficulty = Difficulty.EASY,
+            funFact = "Short for Anti-Virus Guard, founded in the Czech Republic in 1991 and popularized through its free antivirus security suite.",
+            levelNumber = 6,
+            hint = "Four-colored security and cybersecurity antivirus software"
+        ),
+        BrandItem(
+            id = 64,
+            name = "AVIVA",
+            category = "FINANCE",
+            logoRes = R.drawable.logo_aviva,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "British multinational insurance company headquartered in London, tracing roots back to the Hand in Hand Fire & Life Insurance Society founded in 1696.",
+            levelNumber = 6,
+            hint = "British insurance and pensions giant with blue and yellow/green flag"
+        ),
+        BrandItem(
+            id = 65,
+            name = "AVON",
+            category = "COSMETICS",
+            logoRes = R.drawable.logo_avon,
+            difficulty = Difficulty.EASY,
+            funFact = "Founded in 1886 by David H. McConnell, who initially gave away fragrance samples to housewives to help sell books!",
+            levelNumber = 6,
+            hint = "Pioneer direct-selling cosmetics and beauty company"
+        ),
+
+        // LEVEL 7: GLOBAL ICONS & MEDIA (66-75)
+        BrandItem(
+            id = 66,
+            name = "AXA",
+            category = "FINANCE",
+            logoRes = R.drawable.logo_axa,
+            difficulty = Difficulty.EASY,
+            funFact = "The name 'AXA' was chosen in 1985 because it is short, easy to pronounce in any language, and begins with the letter A for alphabetical listings.",
+            levelNumber = 7,
+            hint = "French multinational insurance and asset management giant"
+        ),
+        BrandItem(
+            id = 67,
+            name = "AXN",
+            category = "ENTERTAINMENT",
+            logoRes = R.drawable.logo_axn,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "Action television channel brand owned by KC Global Media and Sony Pictures Television, broadcasting high-octane drama and blockbusters.",
+            levelNumber = 7,
+            hint = "Action and thrill entertainment cable TV network"
+        ),
+        BrandItem(
+            id = 68,
+            name = "AXE",
+            category = "PERSONAL CARE",
+            logoRes = R.drawable.logo_axe,
+            difficulty = Difficulty.EASY,
+            funFact = "Known as Lynx in the United Kingdom, Ireland, Australia, and New Zealand, this Unilever body spray brand was launched in 1983.",
+            levelNumber = 7,
+            hint = "Popular men's grooming and body spray fragrance brand"
+        ),
+        BrandItem(
+            id = 69,
+            name = "AXIAM",
+            category = "AUTOMOTIVE",
+            logoRes = R.drawable.logo_axiam,
+            difficulty = Difficulty.HARD,
+            funFact = "French quadricycle and microcar manufacturer based in Aix-les-Bains, producing light vehicles drivable without a standard full car license.",
+            levelNumber = 7,
+            hint = "French microcar and compact quadricycle vehicle maker"
+        ),
+        BrandItem(
+            id = 70,
+            name = "BABOLAT",
+            category = "SPORTS",
+            logoRes = R.drawable.logo_babolat,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "The oldest company specializing in racket sports, founded in Lyon in 1875! Rafael Nadal played his entire professional career with Babolat rackets.",
+            levelNumber = 7,
+            hint = "Historic French tennis racket and strings manufacturer"
+        ),
+        BrandItem(
+            id = 71,
+            name = "BABOR",
+            category = "COSMETICS",
+            logoRes = R.drawable.logo_babor,
+            difficulty = Difficulty.HARD,
+            funFact = "German luxury skincare pioneer founded in 1956 by chemist Dr. Michael Babor in Aachen, renowned for inventing the precision beauty ampoule.",
+            levelNumber = 7,
+            hint = "German luxury spa skincare brand featuring a classic black rose"
+        ),
+        BrandItem(
+            id = 72,
+            name = "BACARDI",
+            category = "BEVERAGES",
+            logoRes = R.drawable.logo_bacardi,
+            difficulty = Difficulty.EASY,
+            funFact = "Founded in Santiago de Cuba in 1862 by Don Facundo Bacardí Massó. The fruit bat symbolizes good health, fortune, and family unity.",
+            levelNumber = 7,
+            hint = "World famous rum brand with the gold medallion and black bat"
+        ),
+        BrandItem(
+            id = 73,
+            name = "BAIDU",
+            category = "TECHNOLOGY",
+            logoRes = R.drawable.logo_baidu,
+            difficulty = Difficulty.EASY,
+            funFact = "The name Baidu comes from an ancient Chinese Song dynasty poem about a persistent search for a lost beauty amongst crowds.",
+            levelNumber = 7,
+            hint = "Leading Chinese search engine and AI tech giant with blue paw"
+        ),
+        BrandItem(
+            id = 74,
+            name = "BAD ROBOT",
+            category = "ENTERTAINMENT",
+            logoRes = R.drawable.logo_badrobot,
+            difficulty = Difficulty.MEDIUM,
+            funFact = "J.J. Abrams' film and television production company behind Lost, Star Trek, Mission: Impossible, and Star Wars: The Force Awakens.",
+            levelNumber = 7,
+            hint = "J.J. Abrams' film company famous for the red robot in a field"
+        ),
+        BrandItem(
+            id = 75,
+            name = "BAD PIGGIES",
+            category = "GAMING",
+            logoRes = R.drawable.logo_badpiggies,
+            difficulty = Difficulty.EASY,
+            funFact = "Rovio's hit physics puzzle spin-off released in 2012 where players build contraptions for the green pigs to reach eggs!",
+            levelNumber = 7,
+            hint = "Rovio puzzle game starring the green pigs from Angry Birds"
         )
     )
 

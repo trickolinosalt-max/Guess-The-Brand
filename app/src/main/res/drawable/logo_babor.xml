@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Serif letters BA -->
+    <!-- B -->
+    <path
+        android:fillColor="#003566"
+        android:pathData="M20,135 L20,95 L34,95 C41,95 45,98 45,103 C45,107 42,109 38,110 C43,111 47,114 47,120 C47,128 41,135 32,135 Z M26,112 L32,112 C36,112 39,110 39,105 C39,100 36,99 32,99 L26,99 Z M26,130 L32,130 C37,130 41,127 41,122 C41,116 37,115 32,115 L26,115 Z" />
+    <!-- A -->
+    <path
+        android:fillColor="#003566"
+        android:pathData="M48,135 L58,95 L68,95 L78,135 L71,135 L69,126 L57,126 L55,135 Z M59,120 L67,120 L63,103 Z" />
+
+    <!-- Elegant Rose with Stem in Center -->
+    <!-- Rose Flower head -->
+    <path
+        android:fillColor="#003566"
+        android:pathData="M112,50 C110,48 107,46 102,46 C95,46 90,52 92,60 C90,62 88,67 92,72 C96,77 104,78 108,74 C112,78 119,77 122,70 C125,64 122,56 117,52 Z" />
+    <!-- Rose Stem -->
+    <path
+        android:strokeColor="#003566"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M106,75 L106,145 M106,90 C112,86 116,88 116,88 M106,105 C100,102 96,104 96,104" />
+
+    <!-- Serif letter R on Right -->
+    <path
+        android:fillColor="#003566"
+        android:pathData="M135,135 L135,95 L150,95 C158,95 163,99 163,106 C163,112 159,115 153,116 L164,135 L156,135 L146,117 L142,117 L142,135 Z M142,112 L149,112 C154,112 156,110 156,106 C156,101 154,100 149,100 L142,100 Z" />
+</vector>

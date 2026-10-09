@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Serif Letter A on Left -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M15,125 L10,125 L10,121 L18,121 L32,82 L38,82 L52,121 L60,121 L60,125 L44,125 L44,121 L48,121 L44,110 L25,110 L22,121 L26,121 L26,125 Z M27,105 L42,105 L35,88 Z" />
+
+    <!-- Serif Letter N on Right -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M140,125 L135,125 L135,121 L142,121 L142,86 L135,86 L135,82 L146,82 L172,118 L172,86 L165,86 L165,82 L178,82 L178,86 L175,86 L175,125 L165,125 L145,91 L145,121 L149,121 L149,125 Z" />
+</vector>

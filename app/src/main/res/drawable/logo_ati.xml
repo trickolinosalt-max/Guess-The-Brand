@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Red background -->
+    <path
+        android:fillColor="#ED1C24"
+        android:pathData="M15,45 L185,45 C190,45 194,49 194,54 L194,146 C194,151 190,155 185,155 L15,155 C10,155 6,151 6,146 L6,54 C6,49 10,45 15,45 Z" />
+
+    <!-- Stylized A -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,124 L68,76 C72,70 78,66 85,66 C93,66 99,72 99,80 L99,132 C99,137 95,141 90,141 C85,141 81,137 81,132 L81,95 L62,127 C59,131 53,133 48,131 C43,129 40,125 38,124 Z" />
+    <!-- Dot cutout inside A -->
+    <path
+        android:fillColor="#ED1C24"
+        android:pathData="M72,112 C72,108 75,105 79,105 C83,105 86,108 86,112 C86,116 83,119 79,119 C75,119 72,116 72,112 Z" />
+
+    <!-- Stylized I -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M162,78 C162,72 166,68 172,68 C178,68 182,72 182,78 L182,132 C182,138 178,142 172,142 C166,142 162,138 162,132 Z" />
+    <path
+        android:fillColor="#ED1C24"
+        android:pathData="M168,78 C168,75 170,73 172,73 C174,73 176,75 176,78 C176,81 174,83 172,83 C170,83 168,81 168,78 Z" />
+</vector>

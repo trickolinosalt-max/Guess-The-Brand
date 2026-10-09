@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Bold Red Letter B on Left -->
+    <path
+        android:fillColor="#E11D48"
+        android:pathData="M25,145 L25,85 L52,85 C64,85 72,90 72,99 C72,106 67,110 61,112 C69,114 74,120 74,128 C74,139 65,145 50,145 Z M42,110 L50,110 C55,110 58,108 58,103 C58,98 55,96 50,96 L42,96 Z M42,134 L51,134 C57,134 60,132 60,126 C60,120 57,118 51,118 L42,118 Z" />
+
+    <!-- Blue Dog Paw Print on Right -->
+    <!-- Center large metacarpal pad -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M135,135 C118,135 110,122 110,110 C110,95 125,88 135,88 C145,88 160,95 160,110 C160,122 152,135 135,135 Z" />
+
+    <!-- 4 Toe Pads -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M112,74 A9,13 30 1,1 111.9,74 Z" />
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M128,60 A9,14 10 1,1 127.9,60 Z" />
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M148,64 A9,14 -15 1,1 147.9,64 Z" />
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M164,80 A8,12 -35 1,1 163.9,80 Z" />
+</vector>

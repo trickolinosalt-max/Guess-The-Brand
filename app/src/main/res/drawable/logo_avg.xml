@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Top Left: Orange with serrated sawtooth left edge -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M25,70 L48,70 L48,97 L25,97 L30,92 L25,87 L30,82 L25,77 Z" />
+
+    <!-- Top Right: Navy/Blue with serrated right edge -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M52,70 L75,70 L70,75 L75,80 L70,85 L75,90 L70,95 L75,97 L52,97 Z" />
+
+    <!-- Bottom Left: Green with serrated left edge -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M25,101 L48,101 L48,128 L25,128 L30,123 L25,118 L30,113 L25,108 Z" />
+
+    <!-- Bottom Right: Red with serrated bottom-right edge -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M52,101 L75,101 L75,128 L70,128 L70,132 L65,128 L60,132 L55,128 L52,128 Z" />
+
+    <!-- Bold Dark Blue Letter V -->
+    <path
+        android:fillColor="#0F2D6B"
+        android:pathData="M115,75 L130,125 L142,125 L157,75 L144,75 L136,108 L128,75 Z" />
+</vector>

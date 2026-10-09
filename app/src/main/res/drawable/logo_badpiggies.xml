@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Green Sunburst Background -->
+    <path
+        android:fillColor="#65A30D"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Sunburst Light Green Rays -->
+    <path
+        android:fillColor="#84CC16"
+        android:pathData="M100,100 L20,10 L45,10 Z M100,100 L75,10 L105,10 Z M100,100 L135,10 L165,10 Z M100,100 L195,30 L195,60 Z M100,100 L195,90 L195,120 Z M100,100 L195,150 L180,185 Z M100,100 L140,185 L110,185 Z M100,100 L80,185 L50,185 Z M100,100 L10,165 L10,135 Z M100,100 L10,105 L10,75 Z" />
+
+    <!-- Bad Piggies Cartoon White Logo Title at top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#14532D"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"
+        android:pathData="M25,40 C25,32 35,30 45,30 C55,30 65,34 75,32 C85,30 95,34 105,32 C115,30 130,30 145,34 C160,34 175,38 175,46 C175,54 165,58 150,56 C135,58 120,54 105,58 C90,56 75,58 60,56 C45,58 25,52 25,40 Z" />
+
+    <!-- Bad Piggy Head -->
+    <path
+        android:fillColor="#4ADE80"
+        android:strokeColor="#166534"
+        android:strokeWidth="3"
+        android:pathData="M100,105 C132,105 152,122 152,145 C152,170 128,185 100,185 C72,185 48,170 48,145 C48,122 68,105 100,105 Z" />
+
+    <!-- Pig Ears -->
+    <path
+        android:fillColor="#4ADE80"
+        android:strokeColor="#166534"
+        android:strokeWidth="2.5"
+        android:pathData="M65,115 C58,105 60,95 72,102 Z" />
+    <path
+        android:fillColor="#4ADE80"
+        android:strokeColor="#166534"
+        android:strokeWidth="2.5"
+        android:pathData="M135,115 C142,105 140,95 128,102 Z" />
+
+    <!-- Big Cartoon White Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#166534"
+        android:strokeWidth="2"
+        android:pathData="M78,135 A12,12 0 1,1 77.9,135 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#166534"
+        android:strokeWidth="2"
+        android:pathData="M122,135 A12,12 0 1,1 121.9,135 Z" />
+    <!-- Black Pupils -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M81,135 A4,4 0 1,1 80.9,135 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M119,135 A4,4 0 1,1 118.9,135 Z" />
+
+    <!-- Snout / Nose -->
+    <path
+        android:fillColor="#86EFAC"
+        android:strokeColor="#166534"
+        android:strokeWidth="2.5"
+        android:pathData="M100,145 C115,145 122,150 122,158 C122,166 115,170 100,170 C85,170 78,166 78,158 C78,150 85,145 100,145 Z" />
+    <!-- Nostrils -->
+    <path
+        android:fillColor="#166534"
+        android:pathData="M92,158 A4,5 0 1,1 91.9,158 Z" />
+    <path
+        android:fillColor="#166534"
+        android:pathData="M108,158 A4,5 0 1,1 107.9,158 Z" />
+
+    <!-- Cute Teeth -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#166534"
+        android:strokeWidth="1.5"
+        android:pathData="M95,170 L95,176 L99,176 L99,170 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#166534"
+        android:strokeWidth="1.5"
+        android:pathData="M101,170 L101,176 L105,176 L105,170 Z" />
+</vector>

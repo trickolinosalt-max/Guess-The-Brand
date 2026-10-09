@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Gold Outer Border -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M100,35 A42,42 0 1,1 99.9,35 Z" />
+
+    <!-- Red Circular Center -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M100,38 A38,38 0 1,1 99.9,38 Z" />
+
+    <!-- Gold Inner Ring -->
+    <path
+        android:strokeColor="#FDE047"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M100,41 A35,35 0 1,1 99.9,41 Z" />
+
+    <!-- Black Bacardi Bat Emblem -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M100,60 C96,60 95,64 95,68 C92,62 85,58 75,64 C70,68 68,76 72,82 C76,82 82,78 86,84 C88,88 88,96 85,102 C90,95 95,95 100,108 C105,95 110,95 115,102 C112,96 112,88 114,84 C118,78 124,82 128,82 C132,76 130,68 125,64 C115,58 108,62 105,68 C105,64 104,60 100,60 Z" />
+    <!-- Gold highlights on Bat wings -->
+    <path
+        android:strokeColor="#FDE047"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M78,67 C83,72 88,78 88,85 M122,67 C117,72 112,78 112,85" />
+
+    <!-- Serif letter B on Left -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M38,140 L38,110 L50,110 C56,110 59,112 59,116 C59,119 57,121 54,122 C58,123 61,125 61,130 C61,136 56,140 48,140 Z M44,123 L49,123 C52,123 54,121 54,118 C54,114 52,113 49,113 L44,113 Z M44,136 L49,136 C53,136 56,134 56,129 C56,125 53,124 49,124 L44,124 Z" />
+
+    <!-- Serif letter I on Right -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M152,140 L152,110 L160,110 L160,140 Z" />
+</vector>

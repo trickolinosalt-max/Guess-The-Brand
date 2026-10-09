@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White card background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Globe base circle -->
+    <path
+        android:fillColor="#00A8E0"
+        android:pathData="M70,55 A45,45 0 1,1 69.9,55 Z" />
+
+    <!-- 3D White Latitudinal Stripes cutting across globe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,75 C50,68 85,68 98,75 C94,79 50,79 40,75 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,90 C45,82 95,82 110,90 C105,96 35,96 30,90 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,105 C42,98 98,98 113,105 C108,111 32,111 27,105 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,120 C45,114 95,114 109,120 C104,125 36,125 31,120 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,133 C52,128 88,128 98,133 C94,137 46,137 42,133 Z" />
+
+    <!-- Globe Sphere Shading highlight -->
+    <path
+        android:fillColor="#20FFFFFF"
+        android:pathData="M50,60 C75,55 95,75 90,100 C70,90 55,75 50,60 Z" />
+
+    <!-- Letter t on the right -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M152,80 L152,90 L145,90 L145,96 L152,96 L152,115 C152,122 155,126 162,126 C165,126 168,125 170,123 L168,117 C166,118 164,119 162,119 C159,119 158,117 158,113 L158,96 L168,96 L168,90 L158,90 L158,80 Z" />
+</vector>

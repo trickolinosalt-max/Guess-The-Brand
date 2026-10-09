@@ -15,6 +15,7 @@ import com.example.ui.screens.DailyChallengeScreen
 import com.example.ui.screens.GamePlayScreen
 import com.example.ui.screens.LeaderboardScreen
 import com.example.ui.screens.LevelSelectScreen
+import com.example.ui.screens.MainMenuScreen
 import com.example.ui.theme.GuessTheBrandTheme
 import com.example.ui.theme.Slate900
 import com.example.viewmodel.QuizViewModel
@@ -36,6 +37,7 @@ class MainActivity : ComponentActivity() {
                     val currentScreen by viewModel.currentScreen.collectAsState()
 
                     when (currentScreen) {
+                        is Screen.MainMenu -> MainMenuScreen(viewModel = viewModel)
                         is Screen.LevelSelect -> LevelSelectScreen(viewModel = viewModel)
                         is Screen.Game -> GamePlayScreen(viewModel = viewModel)
                         is Screen.DailyChallenge -> DailyChallengeScreen(viewModel = viewModel)

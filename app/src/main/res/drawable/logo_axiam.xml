@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Red outer ring -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M100,20 A80,80 0 1,1 99.9,20 Z" />
+
+    <!-- Silver bevel ring -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M100,24 A76,76 0 1,1 99.9,24 Z" />
+
+    <!-- Deep Blue Inner Disc -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M100,28 A72,72 0 1,1 99.9,28 Z" />
+
+    <!-- Metallic stylized trapezoidal top of A -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M75,50 L125,50 L145,85 L55,85 Z" />
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M88,60 L112,60 L120,80 L80,80 Z" />
+
+    <!-- Blue horizontal bar across middle of A -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M48,88 L152,88 L150,110 L50,110 Z" />
+
+    <!-- Lower pedestal of A -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M52,118 L148,118 L138,138 L115,138 L115,130 L85,130 L85,138 L62,138 Z" />
+</vector>

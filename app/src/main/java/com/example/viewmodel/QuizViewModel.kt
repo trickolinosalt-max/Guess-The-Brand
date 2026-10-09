@@ -19,6 +19,7 @@ import kotlinx.coroutines.launch
 import java.util.Random
 
 sealed interface Screen {
+    data object MainMenu : Screen
     data class Game(val brandId: Int, val isDaily: Boolean = false) : Screen
     data object LevelSelect : Screen
     data object DailyChallenge : Screen
@@ -39,7 +40,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         observeData()
     }
 
-    private val _currentScreen = MutableStateFlow<Screen>(Screen.LevelSelect)
+    private val _currentScreen = MutableStateFlow<Screen>(Screen.MainMenu)
     val currentScreen: StateFlow<Screen> = _currentScreen.asStateFlow()
 
     private val _userProfile = MutableStateFlow<UserProfileEntity?>(null)

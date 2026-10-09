@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Red slanted oval emblem -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M100,50 C125,50 145,62 145,78 C145,94 125,106 100,106 C75,106 55,94 55,78 C55,62 75,50 100,50 Z" />
+
+    <!-- White slits cutting horizontally across oval -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,72 L150,72 L150,77 L50,77 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,83 L148,83 L148,87 L52,87 Z" />
+
+    <!-- Black italic text: B b   T -->
+    <!-- Letter B -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M45,145 L58,145 C65,145 68,142 67,138 C66,135 63,133 58,133 L54,133 L55,130 L60,130 C65,130 67,128 66,125 C65,122 62,121 57,121 L43,121 Z M53,139 L51,139 L52,136 L54,136 C57,136 58,137 58,138 C58,139 56,139 53,139 Z" />
+    <!-- Letter b -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M78,145 C75,145 72,143 71,140 L74,121 L80,121 L77,131 C79,129 82,128 85,128 C90,128 93,132 92,137 C91,142 86,145 78,145 Z M81,139 C83,139 84,138 84,136 C84,134 83,133 81,133 C79,133 77,134 76,136 L75,138 C77,139 79,139 81,139 Z" />
+    <!-- Letter T -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M150,121 L168,121 L166,126 L160,126 L156,145 L150,145 L154,126 L148,126 Z" />
+</vector>

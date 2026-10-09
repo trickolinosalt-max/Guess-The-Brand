@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Clean white card background -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Red three-pointed Atomic star arrowhead -->
+    <path
+        android:fillColor="#E30613"
+        android:pathData="M100,18 L124,124 L162,168 L100,136 L38,168 L76,124 Z" />
+    <!-- Center contour highlight -->
+    <path
+        android:fillColor="#C0040F"
+        android:pathData="M100,18 L100,136 L38,168 L76,124 Z" />
+</vector>

@@ -57,6 +57,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.model.BrandCatalog
 import com.example.model.BrandItem
+import androidx.activity.compose.BackHandler
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material3.IconButton
 import com.example.ui.components.CategoryRibbonBanner
 import com.example.ui.theme.GameGold
 import com.example.ui.theme.GameGreen
@@ -71,6 +74,10 @@ fun LevelSelectScreen(
     viewModel: QuizViewModel,
     modifier: Modifier = Modifier
 ) {
+    BackHandler {
+        viewModel.navigateTo(Screen.MainMenu)
+    }
+
     val userProfile by viewModel.userProfile.collectAsState()
     val progressMap by viewModel.progressMap.collectAsState()
     val currentScreen by viewModel.currentScreen.collectAsState()
@@ -91,26 +98,22 @@ fun LevelSelectScreen(
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 10.dp),
+                    .padding(horizontal = 8.dp, vertical = 6.dp),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Box(
-                        modifier = Modifier
-                            .size(36.dp)
-                            .clip(RoundedCornerShape(10.dp))
-                            .background(Color(0xFF2563EB)),
-                        contentAlignment = Alignment.Center
+                    IconButton(
+                        onClick = { viewModel.navigateTo(Screen.MainMenu) },
+                        modifier = Modifier.testTag("menu_back_button")
                     ) {
                         Icon(
-                            imageVector = Icons.Default.Star,
-                            contentDescription = "Logo",
-                            tint = GameGold,
-                            modifier = Modifier.size(22.dp)
+                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = "Main Menu",
+                            tint = Color.White
                         )
                     }
-                    Spacer(modifier = Modifier.width(8.dp))
+                    Spacer(modifier = Modifier.width(4.dp))
                     Column {
                         Text(
                             text = "GUESS THE BRAND",

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Dark textured sky background -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M10,10 L190,10 C195,10 198,13 198,18 L198,182 C198,187 195,190 190,190 L10,190 C5,190 2,187 2,182 L2,18 C2,13 5,10 10,10 Z" />
+
+    <!-- Cloudy gradient / haze -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M15,15 C55,40 145,20 185,50 L185,100 C130,90 70,110 15,90 Z" />
+
+    <!-- Red Boxy Robot Head -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M70,70 L130,65 L135,95 L65,98 Z" />
+    <!-- Robot Head Outline -->
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M70,70 L130,65 L135,95 L65,98 Z" />
+
+    <!-- Antenna -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2"
+        android:pathData="M100,66 L100,52 M97,52 L103,52" />
+
+    <!-- Glowing Yellow Eyes -->
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M84,82 A6,6 0 1,1 83.9,82 Z" />
+    <path
+        android:fillColor="#FACC15"
+        android:pathData="M116,80 A6,6 0 1,1 115.9,80 Z" />
+    <!-- Pupils -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M85,82 A2,2 0 1,1 84.9,82 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M117,80 A2,2 0 1,1 116.9,80 Z" />
+
+    <!-- Robot Neck & Shoulders -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M88,102 L112,102 L116,115 L84,115 Z" />
+
+    <!-- Dark Silhouette Grass Foreground -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,105 C30,98 50,110 80,102 C110,95 150,108 190,100 L190,185 L10,185 Z" />
+    <!-- Tall Grass blades silhouettes -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M45,108 L40,88 M55,108 L58,92 M75,106 L72,94 M125,106 L128,90 M145,108 L142,88 M165,108 L168,93" />
+
+    <!-- Sketchy Gothic Letters: B  R -->
+    <!-- Letter B -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M55,140 L55,168 M55,140 C65,138 72,146 65,153 C74,155 72,168 55,168" />
+    <!-- Letter R -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M95,140 L95,168 M95,140 C105,138 112,146 105,153 L115,168 M95,153 L105,153" />
+</vector>

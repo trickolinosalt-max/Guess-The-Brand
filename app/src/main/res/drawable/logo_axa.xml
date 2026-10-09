@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Blue square background -->
+    <path
+        android:fillColor="#004F9F"
+        android:pathData="M25,25 L175,25 C180,25 183,28 183,33 L183,167 C183,172 180,175 175,175 L25,175 C20,175 17,172 17,167 L17,33 C17,28 20,25 25,25 Z" />
+
+    <!-- Red diagonal slash -->
+    <path
+        android:fillColor="#E30613"
+        android:pathData="M110,118 L175,28 L183,28 L118,118 Z" />
+
+    <!-- White stylized X at bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,110 L100,140 L80,170 L95,170 L110,148 L125,170 L140,170 L120,140 L136,115 L122,115 L110,132 L98,110 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,155 L70,170 L80,170 L94,158 Z" />
+</vector>
