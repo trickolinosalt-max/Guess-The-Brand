@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red Basketball in Left Hand -->
+    <path android:fillColor="#EF4444" android:pathData="M125,25 C132,25 138,31 138,38 C138,45 132,51 125,51 C118,51 112,45 112,38 C112,31 118,25 125,25 Z" />
+    <!-- Jumpman Silhouette -->
+    <path android:fillColor="#EF4444" android:pathData="M122,52 L112,78 L95,95 L68,110 L62,102 L85,88 L104,72 L112,52 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M102,75 L95,122 L72,165 L60,165 L88,115 L95,75 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M95,122 L118,145 L145,165 L158,165 L125,135 L108,122 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M108,82 L132,95 L148,115 L140,120 L125,102 L108,85 Z" />
+
+</vector>

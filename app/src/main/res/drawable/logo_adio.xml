@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#111111" android:pathData="M25,25 L175,25 L175,175 L25,175 Z" />
+    <!-- White Wave Swoop -->
+    <path android:fillColor="#FFFFFF" android:pathData="M55,100 C75,60 120,60 145,95 C130,90 110,85 95,95 C80,105 65,115 55,100 Z" />
+    <!-- White Letters AD -->
+    <path android:fillColor="#FFFFFF" android:pathData="M60,140 L70,115 L82,115 L92,140 L82,140 L80,134 L72,134 L70,140 Z M74,128 L78,128 L76,122 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M98,115 L115,115 C124,115 130,121 130,128 C130,135 124,140 115,140 L98,140 Z M108,122 L108,133 L114,133 C118,133 120,131 120,128 C120,125 118,122 114,122 Z" />
+
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red Circle -->
+    <path android:fillColor="#DC2626" android:pathData="M100,30 C138,30 170,62 170,100 C170,138 138,170 100,170 C62,170 30,138 30,100 C30,62 62,30 100,30 Z" />
+    <!-- White Triangle Tent -->
+    <path android:fillColor="#FFFFFF" android:pathData="M100,45 L150,135 L125,135 L100,85 L75,135 L50,135 Z" />
+    <!-- Black Letters A and WA below -->
+    <path android:fillColor="#111111" android:pathData="M35,198 L48,175 L58,175 L71,198 L61,198 L58,192 L48,192 L45,198 Z M51,186 L55,186 L53,180 Z" />
+    <path android:fillColor="#111111" android:pathData="M130,175 L138,175 L144,192 L150,175 L158,175 L164,192 L170,175 L178,175 L168,198 L160,198 L154,183 L148,198 L140,198 Z" />
+
+</vector>

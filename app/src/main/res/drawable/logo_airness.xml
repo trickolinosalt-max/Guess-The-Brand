@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Black Crouching Panther Silhouette -->
+    <path android:fillColor="#111111" android:pathData="M35,70 C55,75 80,68 110,65 C135,62 165,70 175,80 C170,85 160,82 150,85 C138,90 135,105 140,118 L130,118 C125,105 125,95 115,92 C100,92 85,102 75,115 L65,115 C72,102 72,92 60,90 C45,88 35,98 30,105 L25,105 C28,95 28,80 35,70 Z" />
+    <path android:fillColor="#111111" android:pathData="M35,72 C25,75 18,85 18,95 C18,102 24,106 28,100 C30,95 28,85 35,80 Z" />
+    <!-- Red SS below -->
+    <path android:fillColor="#EF4444" android:pathData="M135,135 L150,135 L150,142 L140,142 L140,148 L150,148 L150,160 L135,160 L135,152 L144,152 L144,146 L135,146 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M155,135 L170,135 L170,142 L160,142 L160,148 L170,148 L170,160 L155,160 L155,152 L164,152 L164,146 L155,146 Z" />
+
+</vector>

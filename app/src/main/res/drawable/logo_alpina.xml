@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#1E293B" android:pathData="M100,20 C144,20 180,56 180,100 C180,144 144,180 100,180 C56,180 20,144 20,100 C20,56 56,20 100,20 Z" />
+    <!-- Outer Silver Ring with A P A -->
+    <path android:fillColor="#E2E8F0" android:pathData="M100,32 C138,32 168,62 168,100 C168,138 138,168 100,168 C62,168 32,138 32,100 C32,62 62,32 100,32 Z" />
+    <path android:fillColor="#111827" android:pathData="M100,45 C130,45 155,70 155,100 C155,130 130,155 100,155 C70,155 45,130 45,100 C45,70 70,45 100,45 Z" />
+    <!-- Inner Shield: Red Left, Blue Right -->
+    <path android:fillColor="#DC2626" android:pathData="M70,75 L100,75 L100,135 C85,130 70,115 70,75 Z" />
+    <path android:fillColor="#1D4ED8" android:pathData="M100,75 L130,75 C130,115 115,130 100,135 Z" />
+    <!-- Carburetor & Crankshaft Silhouettes -->
+    <path android:fillColor="#FFFFFF" android:pathData="M78,85 L84,85 L84,115 L78,115 Z M88,85 L94,85 L94,115 L88,115 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M110,85 L120,85 L116,115 L106,115 Z" />
+
+</vector>

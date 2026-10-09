@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Blue Crown Top -->
+    <path android:fillColor="#1D4ED8" android:pathData="M65,45 L135,45 L145,70 L55,70 Z" />
+    <!-- Gold Cogwheel Center -->
+    <path android:fillColor="#D97706" android:pathData="M100,55 C125,55 145,75 145,100 C145,125 125,145 100,145 C75,145 55,125 55,100 C55,75 75,55 100,55 Z M100,70 C83,70 70,83 70,100 C70,117 83,130 100,130 C117,130 130,117 130,100 C130,83 117,70 100,70 Z" />
+    <!-- Cyan Wings -->
+    <path android:fillColor="#38BDF8" android:pathData="M10,100 L90,85 L90,115 Z" />
+    <path android:fillColor="#38BDF8" android:pathData="M190,100 L110,85 L110,115 Z" />
+    <!-- Silver/White Monogram MV -->
+    <path android:fillColor="#FFFFFF" android:pathData="M78,80 L88,80 L96,120 L104,80 L112,80 L118,125 L108,125 L104,95 L96,130 L88,95 L84,125 L74,125 Z" />
+
+</vector>

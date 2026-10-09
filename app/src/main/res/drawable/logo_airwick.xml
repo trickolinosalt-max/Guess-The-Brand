@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Green Organic Leaf Swoosh -->
+    <path android:fillColor="#15803D" android:pathData="M40,130 C40,80 75,50 115,50 C145,50 160,65 160,85 C145,75 125,75 105,85 C85,95 70,120 70,145 C55,145 40,140 40,130 Z" />
+    <!-- Yellow Warm Sun Spot -->
+    <path android:fillColor="#FACC15" android:pathData="M125,60 C132,60 138,66 138,73 C138,80 132,86 125,86 C118,86 112,80 112,73 C112,66 118,60 125,60 Z" />
+    <!-- Green Letters A, R, K -->
+    <path android:fillColor="#166534" android:pathData="M75,115 L88,75 L98,75 L112,115 L102,115 L99,105 L88,105 L85,115 Z M90,96 L97,96 L93,85 Z" />
+    <path android:fillColor="#166534" android:pathData="M140,85 L155,85 C164,85 170,90 170,97 C170,102 166,106 160,108 L170,120 L158,120 L150,108 L148,108 L148,120 L140,120 Z M148,93 L148,101 L154,101 C157,101 160,99 160,97 C160,94 157,93 154,93 Z" />
+
+</vector>

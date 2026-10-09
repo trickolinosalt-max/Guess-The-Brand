@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#E11D48" android:pathData="M100,20 C144,20 180,56 180,100 C180,144 144,180 100,180 C56,180 20,144 20,100 C20,56 56,20 100,20 Z" />
+    <!-- Yellow Flying Bird (Hummingbird/Doctor Bird) -->
+    <path android:fillColor="#FACC15" android:pathData="M125,70 C125,70 145,75 142,80 C135,82 128,80 120,85 C115,92 120,105 110,110 C95,115 85,102 75,100 C65,98 52,108 52,118 C52,128 65,138 80,138 C115,138 135,110 135,90 C135,80 125,75 120,70 Z" />
+    <path android:fillColor="#FACC15" android:pathData="M95,85 C110,85 130,78 140,65 C125,70 105,75 90,82 Z" />
+
+</vector>

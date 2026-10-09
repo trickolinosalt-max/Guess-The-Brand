@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red dynamic wave A -->
+    <path android:fillColor="#DC2626" android:pathData="M40,130 C30,130 20,120 35,95 L65,75 C70,72 80,75 80,85 C80,95 55,120 40,130 Z" />
+    <!-- Red dynamic wave W/A -->
+    <path android:fillColor="#DC2626" android:pathData="M95,85 L120,130 L135,110 L155,130 L180,85 L160,85 L145,115 L135,100 L125,115 L110,85 Z" />
+
+</vector>

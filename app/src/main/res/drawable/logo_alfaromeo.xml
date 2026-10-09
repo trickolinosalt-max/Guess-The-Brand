@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#D4AF37" android:pathData="M100,20 C144,20 180,56 180,100 C180,144 144,180 100,180 C56,180 20,144 20,100 C20,56 56,20 100,20 Z" />
+    <!-- Left Field: White with Red Cross -->
+    <path android:fillColor="#FFFFFF" android:pathData="M100,24 C58,24 24,58 24,100 C24,142 58,176 100,176 Z" />
+    <path android:fillColor="#B91C1C" android:pathData="M55,92 L100,92 L100,108 L55,108 Z" />
+    <path android:fillColor="#B91C1C" android:pathData="M70,30 L85,30 L85,170 L70,170 Z" />
+    <!-- Right Field: Light Blue with Green Serpent (Biscione) -->
+    <path android:fillColor="#38BDF8" android:pathData="M100,24 C142,24 176,58 176,100 C176,142 142,176 100,176 Z" />
+    <path android:fillColor="#15803D" android:pathData="M135,70 C145,70 155,80 155,90 C155,100 145,105 135,110 C145,115 155,125 155,135 C155,145 145,155 135,155 C125,155 120,148 120,140 L130,140 C130,145 135,148 138,148 C144,148 148,142 148,135 C148,128 140,122 130,118 C120,114 115,105 115,95 C115,82 125,70 135,70 Z" />
+    <!-- Crown on Serpent -->
+    <path android:fillColor="#D4AF37" android:pathData="M125,60 L145,60 L148,68 L122,68 Z" />
+
+</vector>

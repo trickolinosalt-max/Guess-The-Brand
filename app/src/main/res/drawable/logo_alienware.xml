@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#111111" android:pathData="M10,20 L190,20 L190,180 L10,180 Z" />
+    <!-- White ALI on left -->
+    <path android:fillColor="#FFFFFF" android:pathData="M25,115 L35,90 L45,90 L55,115 L47,115 L45,108 L35,108 L33,115 Z M37,102 L43,102 L40,95 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M60,90 L68,90 L68,110 L80,110 L80,115 L60,115 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M88,90 L96,90 L96,115 L88,115 Z" />
+    <!-- White Alien Head Logo on right -->
+    <path android:fillColor="#FFFFFF" android:pathData="M165,90 C175,90 182,100 180,112 C178,122 170,128 165,128 C160,128 152,122 150,112 C148,100 155,90 165,90 Z M158,102 C156,104 158,110 162,110 C162,106 160,102 158,102 Z M172,102 C170,102 168,106 168,110 C172,110 174,104 172,102 Z" />
+
+</vector>

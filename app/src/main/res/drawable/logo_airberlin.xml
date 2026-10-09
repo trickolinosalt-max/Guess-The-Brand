@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red Slanted Lines -->
+    <path android:fillColor="#991B1B" android:pathData="M20,125 L50,125 L90,75 L60,75 Z" />
+    <path android:fillColor="#991B1B" android:pathData="M55,125 L65,125 L100,82 L90,82 Z" />
+    <!-- Red Letter A -->
+    <path android:fillColor="#991B1B" android:pathData="M80,125 L92,95 L104,95 L116,125 L106,125 L103,117 L93,117 L90,125 Z M96,110 L100,110 L98,102 Z" />
+    <!-- Red Dot and LIN -->
+    <path android:fillColor="#991B1B" android:pathData="M125,115 C128,115 130,117 130,120 C130,123 128,125 125,125 C122,125 120,123 120,120 C120,117 122,115 125,115 Z" />
+    <path android:fillColor="#991B1B" android:pathData="M142,95 L152,95 L152,120 L168,120 L168,125 L142,125 Z" />
+    <path android:fillColor="#991B1B" android:pathData="M172,95 L182,95 L182,125 L172,125 Z" />
+
+</vector>

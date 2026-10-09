@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Navy Blue Koru Spiral Fern Emblem -->
+    <path android:fillColor="#001B44" android:pathData="M100,50 C125,50 145,70 145,95 L145,105 L80,105 C75,105 70,100 70,95 C70,90 75,85 80,85 L125,85 C125,75 115,65 100,65 C85,65 75,75 75,85 L60,85 C60,65 80,50 100,50 Z" />
+    <path android:fillColor="#001B44" android:pathData="M70,115 L145,115 L145,125 L70,125 Z" />
+    <path android:fillColor="#001B44" android:pathData="M100,130 C115,130 128,140 128,155 C128,170 115,180 100,180 C85,180 72,170 72,155 L87,155 C87,162 93,168 100,168 C107,168 113,162 113,155 C113,148 107,142 100,142 Z" />
+    <!-- Letters N and ZEA -->
+    <path android:fillColor="#001B44" android:pathData="M40,180 L48,180 L62,198 L62,180 L70,180 L70,204 L62,204 L48,186 L48,204 L40,204 Z" />
+    <path android:fillColor="#001B44" android:pathData="M130,180 L145,180 L135,198 L145,198 L145,204 L128,204 L138,186 L128,186 Z" />
+
+</vector>

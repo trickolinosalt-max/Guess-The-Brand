@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Navy Letter A -->
+    <path android:fillColor="#002157" android:pathData="M25,125 L45,65 L60,65 L80,125 L65,125 L61,110 L44,110 L40,125 Z M47,98 L58,98 L52,78 Z" />
+    <!-- Navy Letter E -->
+    <path android:fillColor="#002157" android:pathData="M135,65 L165,65 L165,75 L145,75 L145,88 L160,88 L160,98 L145,98 L145,115 L165,115 L165,125 L135,125 Z" />
+    <!-- Red Accent Ribbon Stroke -->
+    <path android:fillColor="#ED1C24" android:pathData="M170,125 L185,85 L195,85 L180,125 Z" />
+
+</vector>

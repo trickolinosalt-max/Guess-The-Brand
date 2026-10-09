@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- 25-color mosaic square (5x5 grid) on left -->
+    <path android:fillColor="#002B7F" android:pathData="M20,60 L36,60 L36,76 L20,76 Z" />
+    <path android:fillColor="#0284C7" android:pathData="M36,60 L52,60 L52,76 L36,76 Z" />
+    <path android:fillColor="#E11D48" android:pathData="M52,60 L68,60 L68,76 L52,76 Z" />
+    <path android:fillColor="#991B1B" android:pathData="M68,60 L84,60 L84,76 L68,76 Z" />
+    <path android:fillColor="#22C55E" android:pathData="M20,76 L36,76 L36,92 L20,92 Z" />
+    <path android:fillColor="#FACC15" android:pathData="M36,76 L52,76 L52,92 L36,92 Z" />
+    <path android:fillColor="#F97316" android:pathData="M52,76 L68,76 L68,92 L52,92 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M68,76 L84,76 L84,92 L68,92 Z" />
+    <path android:fillColor="#15803D" android:pathData="M20,92 L36,92 L36,108 L20,108 Z" />
+    <path android:fillColor="#A3E635" android:pathData="M36,92 L52,92 L52,108 L36,108 Z" />
+    <path android:fillColor="#FDE047" android:pathData="M52,92 L68,92 L68,108 L52,108 Z" />
+    <path android:fillColor="#EA580C" android:pathData="M68,92 L84,92 L84,108 L68,108 Z" />
+    <!-- Navy Blue text Al and a -->
+    <path android:fillColor="#002157" android:pathData="M105,115 L120,75 L132,75 L146,115 L136,115 L133,106 L118,106 L115,115 Z M121,98 L130,98 L125,86 Z" />
+    <path android:fillColor="#002157" android:pathData="M150,75 L158,75 L158,115 L150,115 Z" />
+    <path android:fillColor="#002157" android:pathData="M180,95 C186,95 192,98 192,105 L192,115 L184,115 L184,112 C181,114 177,116 172,116 C165,116 160,112 160,105 C160,98 166,95 174,95 Z M184,104 L175,104 C170,104 168,106 168,108 C168,110 170,112 174,112 C180,112 184,108 184,104 Z" />
+
+</vector>

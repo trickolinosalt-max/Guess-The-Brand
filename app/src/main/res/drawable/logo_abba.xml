@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#FFFFFF" android:pathData="M100,20 C144,20 180,56 180,100 C180,144 144,180 100,180 C56,180 20,144 20,100 C20,56 56,20 100,20 Z" />
+    <path android:fillColor="#94A3B8" android:strokeWidth="1.5" android:strokeColor="#94A3B8" android:pathData="M100,22 C143,22 178,57 178,100 C178,143 143,178 100,178 C57,178 22,143 22,100 C22,57 57,22 100,22 Z" />
+    <!-- Mirrored B (Left) -->
+    <path android:fillColor="#926239" android:pathData="M95,80 L80,80 C74,80 70,84 70,89 C70,93 73,96 77,97 C72,98 68,102 68,108 C68,114 73,118 80,118 L95,118 Z M80,86 C83,86 85,88 85,91 C85,94 83,96 80,96 L88,96 L88,86 Z M80,102 C84,102 86,105 86,109 C86,112 84,114 80,114 L88,114 L88,102 Z" />
+    <!-- Normal B (Right) -->
+    <path android:fillColor="#926239" android:pathData="M105,80 L120,80 C126,80 130,84 130,89 C130,93 127,96 123,97 C128,98 132,102 132,108 C132,114 127,118 120,118 L105,118 Z M120,86 C117,86 115,88 115,91 C115,94 117,96 120,96 L112,96 L112,86 Z M120,102 C116,102 114,105 114,109 C114,112 116,114 120,114 L112,114 L112,102 Z" />
+
+</vector>

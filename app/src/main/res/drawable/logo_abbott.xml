@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Blue geometric a symbol -->
+    <path android:fillColor="#1D4ED8" android:pathData="M25,20 L175,20 L175,145 L45,145 L45,65 L145,65 L145,90 L65,90 L65,125 L155,125 L155,40 L25,40 Z" />
+    <!-- Two blue lowercase t stems below -->
+    <path android:fillColor="#1D4ED8" android:pathData="M135,160 L145,160 L145,190 L135,190 Z" />
+    <path android:fillColor="#1D4ED8" android:pathData="M155,160 L165,160 L165,190 L155,190 Z" />
+    <path android:fillColor="#1D4ED8" android:pathData="M130,165 L170,165 L170,170 L130,170 Z" />
+
+</vector>

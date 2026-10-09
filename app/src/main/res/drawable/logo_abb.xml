@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red Chopped Letter A -->
+    <path android:fillColor="#FF000F" android:pathData="M35,100 L55,70 L65,70 L75,100 L68,100 L65,92 L45,92 L42,100 Z M48,86 L62,86 L55,75 Z" />
+    <path android:fillColor="#FF000F" android:pathData="M55,100 L75,100 L75,128 L60,128 L60,112 L45,112 L45,100 Z" />
+    <!-- Red Chopped Letters BB -->
+    <path android:fillColor="#FF000F" android:pathData="M85,70 L115,70 C125,70 130,76 130,85 C130,95 125,100 115,100 L85,100 Z M100,78 L100,92 L112,92 C116,92 118,90 118,85 C118,80 116,78 112,78 Z" />
+    <path android:fillColor="#FF000F" android:pathData="M140,100 L168,100 C178,100 184,106 184,115 C184,124 178,128 168,128 L140,128 Z M154,108 L154,120 L165,120 C170,120 172,118 172,115 C172,112 170,108 165,108 Z" />
+
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Three black mountain stripes -->
+    <!-- Bar 1 (Short left) -->
+    <path android:fillColor="#111111" android:pathData="M45,145 L70,145 L42,100 L18,140 Z" />
+    <!-- Bar 2 (Medium center) -->
+    <path android:fillColor="#111111" android:pathData="M92,145 L118,145 L70,68 L44,110 Z" />
+    <!-- Bar 3 (Tall right) -->
+    <path android:fillColor="#111111" android:pathData="M140,145 L166,145 L98,35 L72,78 Z" />
+
+</vector>

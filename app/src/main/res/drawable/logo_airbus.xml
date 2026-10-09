@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Blue Globe Vortex Rings -->
+    <path android:fillColor="#0284C7" android:pathData="M100,30 C125,30 145,45 145,65 C145,85 120,105 85,115 C115,100 135,80 135,65 C135,50 120,40 100,40 Z" />
+    <path android:fillColor="#0284C7" android:pathData="M80,50 C105,50 125,65 125,85 C125,105 100,125 65,135 C95,120 115,100 115,85 C115,70 100,60 80,60 Z" />
+    <!-- Blue letters B and S -->
+    <path android:fillColor="#00205B" android:pathData="M110,135 L128,135 C136,135 140,140 140,146 C140,150 136,154 130,155 C138,156 142,160 142,166 C142,172 136,177 128,177 L110,177 Z M120,142 L120,152 L126,152 C129,152 131,150 131,147 C131,144 129,142 126,142 Z M120,158 L120,170 L128,170 C131,170 133,168 133,164 C133,160 131,158 128,158 Z" />
+    <path android:fillColor="#00205B" android:pathData="M152,168 C155,170 160,172 165,172 C170,172 173,170 173,166 C173,162 168,160 162,158 C154,155 150,152 150,145 C150,138 156,135 165,135 C172,135 178,138 180,142 L172,146 C170,144 168,142 165,142 C162,142 159,143 159,145 C159,148 162,149 168,151 C176,154 181,157 181,165 C181,173 174,178 165,178 C156,178 150,174 148,168 Z" />
+
+</vector>

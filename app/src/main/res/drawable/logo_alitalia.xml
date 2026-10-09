@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Green Tail A -->
+    <path android:fillColor="#15803D" android:pathData="M25,125 L55,85 L72,85 L52,125 Z" />
+    <!-- Red Inner Accent Tail -->
+    <path android:fillColor="#DC2626" android:pathData="M42,125 L55,108 L62,125 Z" />
+    <!-- Green Italic letters ia on right -->
+    <path android:fillColor="#15803D" android:pathData="M142,95 L152,95 L144,125 L134,125 Z" />
+    <path android:fillColor="#15803D" android:pathData="M165,95 C175,95 180,102 178,110 L174,125 L164,125 L166,118 C162,124 155,126 150,126 C144,126 140,121 142,114 C144,106 152,103 162,103 L164,103 L165,100 C165,97 162,96 158,96 C154,96 150,98 148,100 L144,96 C148,93 155,91 162,91 Z" />
+
+</vector>

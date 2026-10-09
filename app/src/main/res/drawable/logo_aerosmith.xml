@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Black Wings Silhouette -->
+    <path android:fillColor="#111111" android:pathData="M100,75 C70,55 20,60 10,65 C25,75 50,90 60,115 L140,115 C150,90 175,75 190,65 C180,60 130,55 100,75 Z" />
+    <!-- Wing Details -->
+    <path android:fillColor="#FFFFFF" android:pathData="M100,78 C75,80 65,95 65,112 C75,112 85,105 100,105 C115,105 125,112 135,112 C135,95 125,80 100,78 Z" />
+    <!-- Monogram Circle A with Star -->
+    <path android:fillColor="#BAE6FD" android:pathData="M100,82 C90,82 82,90 82,100 C82,110 90,118 100,118 C110,118 118,110 118,100 C118,90 110,82 100,82 Z" />
+    <path android:fillColor="#111111" android:pathData="M100,88 L104,98 L114,98 L106,104 L109,114 L100,108 L91,114 L94,104 L86,98 L96,98 Z" />
+    <!-- Clouds lower -->
+    <path android:fillColor="#FFFFFF" android:pathData="M55,115 C55,105 70,105 75,112 C82,104 95,104 100,110 C105,104 118,104 125,112 C130,105 145,105 145,115 C145,128 55,128 55,115 Z" />
+
+</vector>

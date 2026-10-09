@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#E11D48" android:pathData="M20,60 L180,60 L180,140 L20,140 Z" />
+    <!-- White Letter A -->
+    <path android:fillColor="#FFFFFF" android:pathData="M40,126 L56,76 L68,76 L84,126 L73,126 L69,114 L55,114 L51,126 Z M58,105 L66,105 L62,90 Z" />
+    <!-- White letters cco -->
+    <path android:fillColor="#FFFFFF" android:pathData="M102,96 C98,92 92,90 85,90 C76,90 68,97 68,107 C68,117 76,124 85,124 C92,124 98,121 102,117 L108,122 C102,128 94,132 85,132 C71,132 60,121 60,107 C60,93 71,82 85,82 C94,82 102,86 108,92 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M135,102 C132,96 126,92 118,92 C108,92 100,100 100,111 C100,122 108,130 118,130 C126,130 132,126 135,120 L143,124 C138,133 129,138 118,138 C102,138 90,126 90,111 C90,96 102,84 118,84 C129,84 138,89 143,98 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M162,88 C174,88 184,98 184,111 C184,124 174,134 162,134 C150,134 140,124 140,111 C140,98 150,88 162,88 Z M162,96 C155,96 150,103 150,111 C150,119 155,126 162,126 C169,126 174,119 174,111 C174,103 169,96 162,96 Z" />
+
+</vector>

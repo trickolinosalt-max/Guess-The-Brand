@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red Circle -->
+    <path android:fillColor="#DC2626" android:pathData="M100,20 C144,20 180,56 180,100 C180,144 144,180 100,180 C56,180 20,144 20,100 C20,56 56,20 100,20 Z M100,28 C60,28 28,60 28,100 C28,140 60,172 100,172 C140,172 172,140 172,100 C172,60 140,28 100,28 Z" />
+    <!-- Red Stylized Maple Leaf -->
+    <path android:fillColor="#DC2626" android:pathData="M100,42 L108,68 L122,60 L118,78 L138,78 L124,94 L142,106 L120,106 L124,124 L104,116 L102,154 L98,154 L96,116 L76,124 L80,106 L58,106 L76,94 L62,78 L82,78 L78,60 L92,68 Z" />
+    <!-- Letters IR and A below -->
+    <path android:fillColor="#DC2626" android:pathData="M45,188 L52,188 L52,204 L45,204 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M60,188 L72,188 C78,188 82,192 82,196 C82,200 78,204 72,204 L60,204 Z M67,193 L67,199 L72,199 C74,199 76,198 76,196 C76,194 74,193 72,193 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M152,188 L162,188 L170,204 L162,204 L160,199 L154,199 L152,204 L144,204 Z M156,195 L158,195 L157,191 Z" />
+
+</vector>

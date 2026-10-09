@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <path android:fillColor="#111111" android:pathData="M100,10 C150,10 190,50 190,100 C190,150 150,190 100,190 C50,190 10,150 10,100 C10,50 50,10 100,10 Z" />
+    <!-- Red Gothic C -->
+    <path android:fillColor="#EF4444" android:pathData="M55,68 L88,82 L76,95 L68,88 L68,112 L76,105 L88,118 L55,132 L40,118 L40,82 Z" />
+    <!-- Red Lightning Bolt -->
+    <path android:fillColor="#EF4444" android:pathData="M104,74 L84,106 L100,106 L94,126 L116,94 L100,94 Z" />
+    <!-- Red Gothic D -->
+    <path android:fillColor="#EF4444" android:pathData="M125,68 L155,82 L155,118 L125,132 L112,118 L112,82 Z M125,82 L125,118 L142,110 L142,90 Z" />
+
+</vector>

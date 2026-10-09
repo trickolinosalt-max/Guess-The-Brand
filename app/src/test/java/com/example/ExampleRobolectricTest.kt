@@ -22,8 +22,14 @@ class ExampleRobolectricTest {
   @Test
   fun `verify brand catalog has uploaded brands`() {
     val brands = com.example.model.BrandCatalog.allBrands
-    assertEquals(15, brands.size)
-    val apple = brands.find { it.name == "APPLE" }
-    org.junit.Assert.assertNotNull(apple)
+    org.junit.Assert.assertEquals(55, brands.size)
+    val requestedNames = listOf(
+        "APPLE", "AQUAFINA", "BACARDI", "ARIEL", "ARSENAL",
+        "ARTEGA", "AIR ASIA", "ASICS", "ASTON MARTIN", "ASUS"
+    )
+    for (name in requestedNames) {
+        val item = brands.find { it.name == name }
+        org.junit.Assert.assertNotNull("Brand $name should exist in catalog", item)
+    }
   }
 }

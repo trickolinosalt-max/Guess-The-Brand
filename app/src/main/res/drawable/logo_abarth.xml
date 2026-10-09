@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Shield -->
+    <path android:fillColor="#E2E8F0" android:pathData="M35,20 L165,20 C165,110 145,165 100,188 C55,165 35,110 35,20 Z" />
+    <path android:fillColor="#111827" android:pathData="M38,23 L162,23 C162,108 142,162 100,185 C58,162 38,108 38,23 Z" />
+    <!-- Top Header with TH -->
+    <path android:fillColor="#1E293B" android:pathData="M42,27 L158,27 L158,52 L42,52 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M118,34 L146,34 L146,40 L136,40 L136,48 L128,48 L128,40 L118,40 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M148,34 L154,34 L154,48 L148,48 Z" />
+    <!-- Italian Flag Ribbon -->
+    <path android:fillColor="#15803D" android:pathData="M42,52 L80,52 L80,57 L42,57 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M80,52 L120,52 L120,57 L80,57 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M120,52 L158,52 L158,57 L120,57 Z" />
+    <!-- Yellow Field (Top/Left) -->
+    <path android:fillColor="#FACC15" android:pathData="M42,57 L158,57 L42,145 Z" />
+    <!-- Red Field (Bottom/Right) -->
+    <path android:fillColor="#DC2626" android:pathData="M158,57 L158,125 C145,155 120,172 100,180 C80,172 65,162 55,150 L158,57 Z" />
+    <!-- Black Scorpion Silhouette -->
+    <path android:fillColor="#111827" android:pathData="M98,62 C115,62 135,72 145,90 L125,98 C115,85 105,80 98,80 C92,80 82,86 72,98 L52,90 C62,72 82,62 98,62 Z" />
+    <path android:fillColor="#111827" android:pathData="M85,98 L115,98 L125,125 L108,145 L85,135 L95,115 Z" />
+    <path android:fillColor="#111827" android:pathData="M102,142 C102,155 110,165 125,165 C135,165 142,158 142,150 L132,150 C132,154 128,156 124,156 C116,156 112,148 112,142 Z" />
+
+</vector>

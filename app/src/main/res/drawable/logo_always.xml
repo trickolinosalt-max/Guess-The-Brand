@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Green and Blue Infinity Wave Ribbon -->
+    <path android:fillColor="#84CC16" android:pathData="M110,65 C125,55 145,55 155,65 C165,75 160,90 145,95 C130,90 120,75 110,65 Z" />
+    <path android:fillColor="#0284C7" android:pathData="M110,65 C100,75 90,90 105,95 C120,90 135,80 145,95 C135,105 115,105 105,95 Z" />
+    <!-- Blue Script Letters al and s -->
+    <path android:fillColor="#0284C7" android:pathData="M35,130 C45,100 55,75 65,75 C70,75 72,80 68,90 L52,130 Z M48,110 C55,105 60,95 55,95 C50,95 45,105 48,110 Z" />
+    <path android:fillColor="#0284C7" android:pathData="M78,65 L88,65 L72,135 L62,135 Z" />
+    <path android:fillColor="#0284C7" android:pathData="M165,110 C168,105 174,100 180,100 C185,100 188,104 185,108 C182,112 176,115 170,118 C166,120 165,124 166,128 C168,132 174,135 180,135 C186,135 190,130 192,125 L196,128 C192,136 186,140 178,140 C170,140 162,135 160,128 C158,120 162,114 165,110 Z" />
+
+</vector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Silver Caliper Ring -->
+    <path android:fillColor="#94A3B8" android:pathData="M100,25 C142,25 175,58 175,100 C175,142 142,175 100,175 C58,175 25,142 25,100 C25,58 58,25 100,25 Z M100,32 C62,32 32,62 32,100 C32,138 62,168 100,168 C138,168 168,138 168,100 C168,62 138,32 100,32 Z" />
+    <!-- Caliper A -->
+    <path android:fillColor="#94A3B8" android:pathData="M96,35 L104,35 L104,80 L135,160 L122,160 L98,95 L102,95 L78,160 L65,160 L96,80 Z" />
+    <!-- Dark Blue UA below -->
+    <path android:fillColor="#0F172A" android:pathData="M80,180 L88,180 L88,190 C88,194 92,197 96,197 C100,197 104,194 104,190 L104,180 L112,180 L112,190 C112,198 105,204 96,204 C87,204 80,198 80,190 Z" />
+    <path android:fillColor="#0F172A" android:pathData="M125,204 L138,180 L146,180 L159,204 L150,204 L147,198 L137,198 L134,204 Z M140,192 L144,192 L142,186 Z" />
+
+</vector>

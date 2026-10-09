@@ -168,55 +168,32 @@ fun LevelSelectScreen(
                     )
                 }
 
-                // LEVEL 1 SECTION
-                item(span = { GridItemSpan(2) }) {
-                    LevelSectionHeader(
-                        title = "LEVEL 1 • STARTER BRANDS",
-                        brands = BrandCatalog.getBrandsByLevel(1),
-                        progressMap = progressMap
-                    )
-                }
-                items(BrandCatalog.getBrandsByLevel(1)) { brand ->
-                    val isSolved = progressMap[brand.id]?.isSolved == true
-                    BrandGridTile(
-                        brand = brand,
-                        isSolved = isSolved,
-                        onClick = { viewModel.navigateTo(Screen.Game(brand.id, false)) }
-                    )
-                }
-
-                // LEVEL 2 SECTION
-                item(span = { GridItemSpan(2) }) {
-                    LevelSectionHeader(
-                        title = "LEVEL 2 • PRO GUESSER",
-                        brands = BrandCatalog.getBrandsByLevel(2),
-                        progressMap = progressMap
-                    )
-                }
-                items(BrandCatalog.getBrandsByLevel(2)) { brand ->
-                    val isSolved = progressMap[brand.id]?.isSolved == true
-                    BrandGridTile(
-                        brand = brand,
-                        isSolved = isSolved,
-                        onClick = { viewModel.navigateTo(Screen.Game(brand.id, false)) }
-                    )
-                }
-
-                // LEVEL 3 SECTION
-                item(span = { GridItemSpan(2) }) {
-                    LevelSectionHeader(
-                        title = "LEVEL 3 • MASTER EDITION",
-                        brands = BrandCatalog.getBrandsByLevel(3),
-                        progressMap = progressMap
-                    )
-                }
-                items(BrandCatalog.getBrandsByLevel(3)) { brand ->
-                    val isSolved = progressMap[brand.id]?.isSolved == true
-                    BrandGridTile(
-                        brand = brand,
-                        isSolved = isSolved,
-                        onClick = { viewModel.navigateTo(Screen.Game(brand.id, false)) }
-                    )
+                // DYNAMIC LEVELS 1 TO 5
+                for (level in 1..BrandCatalog.totalLevels) {
+                    val levelBrands = BrandCatalog.getBrandsByLevel(level)
+                    val levelTitle = when (level) {
+                        1 -> "LEVEL 1 • STARTER BRANDS"
+                        2 -> "LEVEL 2 • AUTOMOTIVE & PERFORMANCE"
+                        3 -> "LEVEL 3 • AVIATION & TRAVEL"
+                        4 -> "LEVEL 4 • MUSIC, MEDIA & GAMING"
+                        5 -> "LEVEL 5 • GLOBAL ENTERPRISE & LIFESTYLE"
+                        else -> "LEVEL $level"
+                    }
+                    item(span = { GridItemSpan(2) }) {
+                        LevelSectionHeader(
+                            title = levelTitle,
+                            brands = levelBrands,
+                            progressMap = progressMap
+                        )
+                    }
+                    items(levelBrands) { brand ->
+                        val isSolved = progressMap[brand.id]?.isSolved == true
+                        BrandGridTile(
+                            brand = brand,
+                            isSolved = isSolved,
+                            onClick = { viewModel.navigateTo(Screen.Game(brand.id, false)) }
+                        )
+                    }
                 }
             }
 

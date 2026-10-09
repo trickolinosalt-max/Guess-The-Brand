@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Navy Blue Letter A -->
+    <path android:fillColor="#003781" android:pathData="M35,125 L45,80 L58,80 L68,125 L58,125 L56,114 L46,114 L44,125 Z M48,105 L54,105 L51,92 Z" />
+    <!-- Navy Blue Ring on Right with 3 Pillars -->
+    <path android:fillColor="#003781" android:pathData="M150,75 C168,75 182,89 182,107 C182,125 168,139 150,139 C132,139 118,125 118,107 C118,89 132,75 150,75 Z M150,83 C137,83 126,94 126,107 C126,120 137,131 150,131 C163,131 174,120 174,107 C174,94 163,83 150,83 Z" />
+    <!-- 3 Pillars inside -->
+    <path android:fillColor="#003781" android:pathData="M138,92 L144,92 L144,122 L138,122 Z" />
+    <path android:fillColor="#003781" android:pathData="M147,88 L153,88 L153,126 L147,126 Z" />
+    <path android:fillColor="#003781" android:pathData="M156,92 L162,92 L162,122 L156,122 Z" />
+
+</vector>

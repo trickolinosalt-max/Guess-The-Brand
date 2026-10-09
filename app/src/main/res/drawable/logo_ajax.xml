@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Red circular boundary segments -->
+    <path android:fillColor="#DC2626" android:pathData="M100,20 C140,20 175,50 180,90 L172,90 C167,55 137,28 100,28 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M20,100 C20,140 50,175 90,180 L90,172 C55,167 28,137 28,100 Z" />
+    <!-- Black Sketch Ajax Helmet/Head -->
+    <path android:fillColor="#111111" android:pathData="M80,60 C95,50 120,55 135,70 C140,75 142,85 130,95 C120,105 110,120 110,140 L102,140 C102,122 112,108 122,98 C130,90 128,82 124,78 C115,68 95,65 85,72 Z" />
+    <path android:fillColor="#111111" android:pathData="M85,78 L70,105 L80,105 L88,90 Z" />
+    <!-- Black X and AMSTERDAM -->
+    <path android:fillColor="#111111" android:pathData="M80,30 L88,30 L96,44 L104,30 L112,30 L102,46 L112,62 L104,62 L96,48 L88,62 L80,62 L90,46 Z" />
+
+</vector>

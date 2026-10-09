@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Bold Black A on left -->
+    <path android:fillColor="#111111" android:pathData="M35,130 L58,60 L78,60 L102,130 L85,130 L80,114 L56,114 L52,130 Z M61,98 L76,98 L68,75 Z" />
+    <!-- Green AMD Chevron Arrow Emblem on right -->
+    <!-- Top-Right green arrow -->
+    <path android:fillColor="#00875A" android:pathData="M145,60 L185,60 L185,100 L170,100 L170,75 L145,75 Z" />
+    <!-- Bottom-Left green chevron -->
+    <path android:fillColor="#00875A" android:pathData="M145,85 L160,85 L160,110 L185,110 L185,125 L145,125 Z" />
+    <!-- Inner square cut space -->
+    <path android:fillColor="#FFFFFF" android:pathData="M160,75 L170,75 L170,85 L160,85 Z" />
+
+</vector>

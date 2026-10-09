@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Bold Black A -->
+    <path android:fillColor="#111111" android:pathData="M25,125 L45,65 L60,65 L80,125 L65,125 L61,110 L44,110 L40,125 Z M47,98 L58,98 L52,78 Z" />
+    <!-- Red Diamond Badge with fa -->
+    <path android:fillColor="#DC2626" android:pathData="M150,65 L190,95 L150,125 L110,95 Z" />
+    <!-- White text fa -->
+    <path android:fillColor="#FFFFFF" android:pathData="M138,105 L145,85 L155,85 L153,90 L146,90 L144,95 L150,95 L148,100 L142,100 L140,105 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M158,100 C156,96 160,92 165,92 C170,92 172,95 171,98 L162,98 C162,101 164,103 167,103 L172,103 L171,105 C169,106 166,106 164,106 C160,106 158,103 158,100 Z" />
+
+</vector>

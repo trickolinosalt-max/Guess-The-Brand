@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Italian flag rounded arch top -->
+    <path android:fillColor="#15803D" android:pathData="M40,110 C40,65 65,40 80,35 L80,110 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M80,35 C90,32 110,32 120,35 L120,110 L80,110 Z" />
+    <path android:fillColor="#DC2626" android:pathData="M120,35 C135,40 160,65 160,110 L120,110 Z" />
+    <!-- Black bottom box -->
+    <path android:fillColor="#111111" android:pathData="M38,110 L162,110 L162,155 C162,165 152,175 142,175 L58,175 C48,175 38,165 38,155 Z" />
+    <!-- White Italic Letter V -->
+    <path android:fillColor="#FFFFFF" android:pathData="M110,125 L125,125 L135,160 L145,160 L160,125 L145,125 L138,150 L125,125 Z" />
+
+</vector>

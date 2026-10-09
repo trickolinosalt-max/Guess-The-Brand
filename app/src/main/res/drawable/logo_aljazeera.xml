@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Gold Arabic Calligraphic Droplet Emblem -->
+    <path android:fillColor="#D97706" android:pathData="M100,20 C100,20 60,75 60,115 C60,145 78,170 100,170 C122,170 140,145 140,115 C140,75 100,20 100,20 Z" />
+    <!-- White Inner Swirl Cutouts -->
+    <path android:fillColor="#FFFFFF" android:pathData="M100,45 C115,80 125,105 125,125 C125,142 112,155 100,155 C88,155 75,142 75,125 C75,105 85,80 100,45 Z" />
+    <path android:fillColor="#D97706" android:pathData="M95,80 C105,95 110,115 105,130 C100,120 95,105 95,80 Z" />
+    <!-- Blue Letters A J below -->
+    <path android:fillColor="#002B7F" android:pathData="M45,198 L56,172 L66,172 L77,198 L68,198 L65,192 L55,192 L53,198 Z M58,186 L63,186 L60,180 Z" />
+    <path android:fillColor="#002B7F" android:pathData="M95,172 L105,172 L105,192 C105,196 102,198 97,198 C92,198 88,196 86,192 L93,188 C94,190 96,192 98,192 C100,192 101,191 101,189 L101,172 Z" />
+
+</vector>
