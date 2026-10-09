@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Canary Yellow Shield -->
+    <path
+        android:fillColor="#FFE600"
+        android:pathData="M48,28 L152,28 C152,118 132,165 100,185 C68,165 48,118 48,28 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M46,26 L154,26 C154,120 134,168 100,188 C66,168 46,120 46,26 Z M50,30 L50,118 C50,162 70,182 100,182 C130,182 150,162 150,118 L150,30 Z" />
+    <!-- Italian Flag Tricolor Top Stripe -->
+    <path android:fillColor="#009246" android:pathData="M50,30 L83,30 L83,40 L50,40 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M83,30 L117,30 L117,40 L83,40 Z" />
+    <path android:fillColor="#CE2B37" android:pathData="M117,30 L150,30 L150,40 L117,40 Z" />
+    <!-- Prancing Horse Silhouette in Black -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M115,55 C112,50 106,52 102,56 C98,60 96,65 92,68 C88,72 82,75 80,82 C78,89 82,92 84,96 C86,100 88,106 88,112 C88,118 84,124 82,130 C80,136 78,144 80,150 L84,150 C86,144 88,138 92,134 C94,130 96,124 96,118 C98,124 102,132 104,140 C106,146 108,154 112,154 L114,150 C112,142 110,134 108,126 C112,124 116,118 116,110 C116,104 112,98 108,94 C112,90 118,84 118,74 C118,66 116,60 115,55 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M92,66 L78,54 L75,56 L86,72 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M94,74 L74,68 L72,71 L88,82 Z" />
+    <!-- Tail Flowing Up -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M112,96 C120,90 126,80 128,70 C130,60 128,52 125,50 C124,56 122,65 118,72 C115,80 112,88 112,96 Z" />
+</vector>

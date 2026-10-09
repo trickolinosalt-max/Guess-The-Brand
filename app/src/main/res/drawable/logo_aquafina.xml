@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sun -->
+    <path
+        android:fillColor="#F37021"
+        android:pathData="M88,48 C88,40 94,34 102,34 C110,34 116,40 116,48 C116,52 114,56 111,58 L93,58 C90,56 88,52 88,48 Z" />
+    <!-- Mountain Peak Left -->
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M35,68 L60,42 L80,56 L100,32 L125,52 L145,36 L170,62 L160,68 L142,48 L122,62 L102,44 L80,68 Z" />
+    <!-- Mountain Peak Shadow Accent -->
+    <path
+        android:fillColor="#00629B"
+        android:pathData="M60,42 L80,56 L72,66 L55,52 Z" />
+    <!-- Letter Q -->
+    <path
+        android:fillColor="#004B87"
+        android:pathData="M52,78 C40,78 32,88 32,104 C32,120 40,130 52,130 C58,130 63,127 66,122 L62,118 C60,121 57,123 52,123 C45,123 40,116 40,104 C40,92 45,85 52,85 C59,85 64,92 64,104 C64,110 63,115 60,118 L68,126 C71,120 72,113 72,104 C72,88 64,78 52,78 Z" />
+    <path
+        android:fillColor="#004B87"
+        android:pathData="M58,120 L76,140 L70,144 L52,126 Z" />
+    <!-- Letter A -->
+    <path
+        android:fillColor="#004B87"
+        android:pathData="M142,78 L128,142 L137,142 L143,116 L159,116 L165,142 L174,142 L160,78 Z M151,88 L157,109 L145,109 Z" />
+    <!-- Lower Curve - Orange Sun Beam -->
+    <path
+        android:fillColor="#F37021"
+        android:pathData="M15,148 C55,134 145,134 185,148 C155,139 50,139 15,148 Z" />
+    <!-- Lower Curve - Blue Wave -->
+    <path
+        android:fillColor="#00A3E0"
+        android:pathData="M25,153 C65,139 135,139 175,153 C145,144 55,144 25,153 Z" />
+</vector>

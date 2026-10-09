@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Letters AR on left -->
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M24,124 L34,88 L46,88 L56,124 L45,124 L43,115 L36,115 L33,124 Z M38,107 L42,107 L40,97 Z" />
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M58,88 L72,88 C80,88 85,92 85,98 C85,103 82,107 77,109 L86,124 L74,124 L68,111 L67,111 L67,124 L58,124 Z M67,96 L67,104 L72,104 C75,104 77,102 77,99 C77,97 75,96 72,96 Z" />
+    <!-- Letter F raised -->
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M106,62 L120,62 L120,68 L113,68 L113,73 L119,73 L119,79 L113,79 L113,88 L106,88 Z" />
+    <!-- Letters DE center -->
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M98,92 L109,92 C116,92 121,98 121,110 C121,122 116,128 109,128 L98,128 Z M106,99 L106,121 L109,121 C112,121 114,117 114,110 C114,103 112,99 109,99 Z" />
+    <!-- Letters RE right -->
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M136,88 L150,88 C158,88 163,92 163,98 C163,103 160,107 155,109 L164,124 L152,124 L146,111 L145,111 L145,124 L136,124 Z M145,96 L145,104 L150,104 C153,104 155,102 155,99 C155,97 153,96 150,96 Z" />
+    <path
+        android:fillColor="#E31B23"
+        android:pathData="M166,88 L180,88 L180,95 L174,95 L174,102 L179,102 L179,109 L174,109 L174,117 L181,117 L181,124 L166,124 Z" />
+</vector>

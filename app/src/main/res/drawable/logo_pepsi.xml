@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Red Top Wave -->
+    <path
+        android:fillColor="#C9082A"
+        android:pathData="M100,20 C144,20 180,56 180,100 C180,102 180,103 179,105 C156,92 122,90 92,106 C62,122 36,120 21,108 C20,105 20,103 20,100 C20,56 56,20 100,20 Z" />
+    <!-- Blue Bottom Wave -->
+    <path
+        android:fillColor="#004B93"
+        android:pathData="M100,180 C56,180 20,144 20,100 C20,98 20,97 21,95 C44,108 78,110 108,94 C138,78 164,80 179,92 C180,95 180,97 180,100 C180,144 144,180 100,180 Z" />
+</vector>

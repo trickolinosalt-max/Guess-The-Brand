@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Wing Silhouette Left Outline -->
+    <path
+        android:fillColor="#2A2A2A"
+        android:pathData="M100,75 L60,75 C45,75 25,82 10,95 C30,94 48,90 60,86 L100,86 Z" />
+    <path
+        android:fillColor="#2A2A2A"
+        android:pathData="M100,75 L140,75 C155,75 175,82 190,95 C170,94 152,90 140,86 L100,86 Z" />
+    <!-- Wing Feathers Left -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M20,96 C40,94 65,92 88,92 L92,106 C65,106 42,104 22,98 Z" />
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M38,106 C58,104 78,103 94,103 L95,116 C75,116 55,114 40,108 Z" />
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M56,117 C70,116 85,115 96,115 L98,124 C82,124 70,123 58,119 Z" />
+    <!-- Wing Feathers Right -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M180,96 C160,94 135,92 112,92 L108,106 C135,106 158,104 178,98 Z" />
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M162,106 C142,104 122,103 106,103 L105,116 C125,116 145,114 160,108 Z" />
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M144,117 C130,116 115,115 104,115 L102,124 C118,124 130,123 142,119 Z" />
+    <!-- Center Green Badge Plaque -->
+    <path
+        android:fillColor="#004D25"
+        android:pathData="M65,82 L135,82 L135,98 L65,98 Z" />
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M67,84 L133,84 L133,86 L67,86 Z M67,94 L133,94 L133,96 L67,96 Z" />
+    <!-- Letters "ON MA" underneath -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M62,148 C57,148 53,152 53,158 C53,164 57,168 62,168 C67,168 71,164 71,158 C71,152 67,148 62,148 Z M62,152 C65,152 67,155 67,158 C67,161 65,164 62,164 C59,164 57,161 57,158 C57,155 59,152 62,152 Z" />
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M76,148 L80,148 L90,163 L90,148 L94,148 L94,168 L90,168 L80,153 L80,168 L76,168 Z" />
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M106,148 L111,148 L116,161 L121,148 L126,148 L126,168 L122,168 L122,154 L118,165 L114,165 L110,154 L110,168 L106,168 Z" />
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M136,148 L142,148 L149,168 L144,168 L143,163 L136,163 L134,168 L129,168 Z M137,158 L141,158 L139,152 Z" />
+</vector>

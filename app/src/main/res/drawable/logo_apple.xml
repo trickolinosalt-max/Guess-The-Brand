@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Leaf -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M115,22 C125,22 135,28 140,38 C141,45 137,55 130,62 C122,70 108,72 100,68 C98,62 101,50 106,40 C110,32 113,24 115,22 Z" />
+    <!-- Apple Body with Bite -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M100,75 C88,64 74,68 62,75 C45,86 32,108 32,132 C32,152 40,172 52,185 C60,194 70,198 80,196 C90,194 95,188 102,188 C109,188 114,194 124,196 C134,198 144,192 153,181 C162,170 168,157 170,154 C166,151 154,142 154,124 C154,107 167,97 170,95 C164,83 151,75 140,74 C128,73 118,80 110,80 C104,80 96,73 100,75 Z" />
+</vector>

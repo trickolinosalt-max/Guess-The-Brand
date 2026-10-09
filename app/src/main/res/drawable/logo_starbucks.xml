@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path
+        android:fillColor="#00704A"
+        android:pathData="M100,20 C56,20 20,56 20,100 C20,144 56,180 100,180 C144,180 180,144 180,100 C180,56 144,20 100,20 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,32 C62,32 32,62 32,100 C32,138 62,168 100,168 C138,168 168,138 168,100 C168,62 138,32 100,32 Z" />
+    <path
+        android:fillColor="#00704A"
+        android:pathData="M100,42 C68,42 42,68 42,100 C42,132 68,158 100,158 C132,158 158,132 158,100 C158,68 132,42 100,42 Z" />
+    <!-- Siren Crown Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,52 L103,60 L111,60 L105,65 L107,73 L100,68 L93,73 L95,65 L89,60 L97,60 Z" />
+    <!-- Crown -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,76 L92,86 L100,80 L108,86 L112,76 L118,84 L114,92 L86,92 L82,84 Z" />
+    <!-- Face -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M92,94 C92,106 100,114 100,114 C100,114 108,106 108,94 Z" />
+</vector>

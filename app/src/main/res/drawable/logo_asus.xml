@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Letter A with horizontal slit -->
+    <!-- Top triangle peak -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M35,116 L48,82 L58,82 L71,116 L60,116 L57,108 L49,108 L46,116 Z M53,92 L51,102 L55,102 Z" />
+    <!-- Letter S with horizontal slit cut -->
+    <!-- S top curve -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M136,82 L168,82 L168,98 L148,98 L148,103 L168,103 L168,118 L136,118 L136,102 L156,102 L156,97 L136,97 Z" />
+    <!-- Sliced horizontal white gap stripes that give ASUS logo its signature cuts -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,97 L75,97 L75,101 L25,101 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,97 L175,97 L175,101 L130,101 Z" />
+</vector>

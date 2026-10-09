@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Outer Silver Shield -->
+    <path
+        android:fillColor="#888888"
+        android:pathData="M40,15 L160,15 C160,110 140,165 100,188 C60,165 40,110 40,15 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M43,18 L157,18 C157,108 138,162 100,185 C62,162 43,108 43,18 Z" />
+    <!-- Top Black Header -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M46,21 L154,21 L154,52 L46,52 Z" />
+    <!-- White Italic Text 'Art' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,46 L64,26 L73,26 L78,46 L71,46 L70,41 L63,41 L61,46 Z M64,36 L68,36 L66,30 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,33 L85,33 L85,36 C87,33 90,32 93,32 L92,38 C89,38 86,40 85,42 L85,46 L78,46 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98,28 L104,28 L104,33 L110,33 L110,38 L104,38 L104,44 C104,45 105,46 107,46 L110,46 L110,48 C108,49 105,49 103,48 C100,47 98,45 98,42 L98,38 L94,38 L94,33 L98,33 Z" />
+    <!-- Left Field: White with Berries Tree -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M46,52 L100,52 L100,180 C70,160 48,110 46,52 Z" />
+    <!-- Tree Trunk & Branches -->
+    <path
+        android:fillColor="#222222"
+        android:pathData="M70,165 L76,165 L74,135 L86,115 L83,113 L73,130 L64,110 L61,112 L71,133 L70,165 Z" />
+    <path
+        android:fillColor="#222222"
+        android:pathData="M73,125 L88,95 L84,93 L71,120 L58,85 L54,87 L68,118 Z" />
+    <!-- Red Berries -->
+    <path android:fillColor="#D2232A" android:pathData="M56,76 C59,76 62,79 62,82 C62,85 59,88 56,88 C53,88 50,85 50,82 C50,79 53,76 56,76 Z" />
+    <path android:fillColor="#D2232A" android:pathData="M84,85 C87,85 90,88 90,91 C90,94 87,97 84,97 C81,97 78,94 78,91 C78,88 81,85 84,85 Z" />
+    <path android:fillColor="#D2232A" android:pathData="M60,105 C63,105 66,108 66,111 C66,114 63,117 60,117 C57,117 54,114 54,111 C54,108 57,105 60,105 Z" />
+    <path android:fillColor="#D2232A" android:pathData="M86,118 C89,118 92,121 92,124 C92,127 89,130 86,130 C83,130 80,127 80,124 C80,121 83,118 86,118 Z" />
+    <path android:fillColor="#D2232A" android:pathData="M74,70 C77,70 80,73 80,76 C80,79 77,82 74,82 C71,82 68,79 68,76 C68,73 71,70 74,70 Z" />
+    <!-- Right Field: White with Rampant Dog -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,52 L154,52 C152,110 130,160 100,180 Z" />
+    <!-- Rampant Hound Silhouette -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M136,70 C138,66 142,68 144,72 C146,76 142,80 138,82 L132,82 L136,88 L142,90 L140,94 L134,92 L130,98 L132,110 L136,116 L134,120 L128,114 L126,128 L132,142 L134,152 L128,154 L126,144 L122,140 L118,152 L112,152 L116,136 L118,124 L120,104 L114,96 L116,92 L124,96 L124,84 L128,74 Z" />
+    <!-- Dog Red Tongue -->
+    <path
+        android:fillColor="#D2232A"
+        android:pathData="M132,74 C130,70 126,68 122,68 C120,70 122,72 125,72 C128,72 130,75 132,76 Z" />
+</vector>

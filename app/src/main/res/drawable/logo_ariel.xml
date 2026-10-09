@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Blue Upper Loop -->
+    <path
+        android:fillColor="#0072CE"
+        android:pathData="M100,32 C125,28 155,42 165,65 C172,80 162,98 140,105 C158,95 160,78 152,66 C142,50 120,40 100,42 Z" />
+    <!-- Lime Green Upper-Left Loop -->
+    <path
+        android:fillColor="#78BE20"
+        android:pathData="M80,35 C58,45 42,70 50,92 C56,108 72,118 95,116 C76,112 66,100 62,88 C56,70 70,48 88,40 Z" />
+    <!-- Blue Lower-Left Loop -->
+    <path
+        android:fillColor="#0072CE"
+        android:pathData="M52,110 C38,128 42,154 62,168 C76,178 96,172 108,154 C95,166 78,168 68,158 C54,146 52,126 60,112 Z" />
+    <!-- Lime Green Lower-Right Loop -->
+    <path
+        android:fillColor="#78BE20"
+        android:pathData="M110,165 C132,170 156,155 164,132 C170,116 160,100 138,98 C154,104 158,118 152,130 C144,148 126,158 108,155 Z" />
+    <!-- Center Swirl Ring Segments -->
+    <path
+        android:fillColor="#0072CE"
+        android:pathData="M100,60 C122,60 140,78 140,100 C140,108 137,115 132,122 L124,114 C128,110 130,105 130,100 C130,83 117,70 100,70 Z" />
+    <path
+        android:fillColor="#78BE20"
+        android:pathData="M100,140 C78,140 60,122 60,100 C60,92 63,85 68,78 L76,86 C72,90 70,95 70,100 C70,117 83,130 100,130 Z" />
+</vector>
